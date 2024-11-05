@@ -22,8 +22,10 @@
 
 このプロジェクトを動作させるための手順を以下に示します。
 
-python3.11 -m venv venv
+python -m venv venv
 source venv/bin/activate #Mac/Linux    
 venv\Scripts\activate #Windows
 pip install -r requirements.txt
+
+各チャプターのディレクトに移動してから
 python app.py
